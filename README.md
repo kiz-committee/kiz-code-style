@@ -18,12 +18,12 @@
 - 单文件不能超过 200 行
 - 命名空间后不缩进
 - 减少不必要的空格(如 this -> a指针访问运算符，前后的空格是不太必要的)
+- 不要使用RTTI(RuntimeTypeInfo)
 - cpp文件每个函数/类/方法都要标注释, 注释写在签名上方
 - 全部使用中文注释
 - 使用智能指针代替裸指针
 - 使用std::any代替void*
 - 少用匿名函数
-- 优先使用 import export module / 向前声明 代替 include
 - 使用mingw gcc套件
 - 优先使用#pragma once代替 传统的头文件保护
 - 少用宏常量，宏函数
