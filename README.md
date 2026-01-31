@@ -25,7 +25,6 @@
 - 使用智能指针代替裸指针
 - 使用std::any代替void*
 - 少用匿名函数
-- 优先使用 import export module / 向前声明 代替 include
 - 使用mingw gcc套件
 - 优先使用#pragma once代替 传统的头文件保护
 - 少用宏常量，宏函数
